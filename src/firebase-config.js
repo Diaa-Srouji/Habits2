@@ -2,12 +2,12 @@ import { initializeApp } from "https://www.gstatic.com/firebasejs/10.14.0/fireba
 import { getFirestore } from "https://www.gstatic.com/firebasejs/10.14.0/firebase-firestore.js";
 
 export const firebaseConfig = {
-  apiKey: "AIzaSyBj0uvFXWrOQxPskGUrCe7CjH7EZyVBZwo",
-  authDomain: "habits-2adc2.firebaseapp.com",
-  projectId: "habits-2adc2",
-  storageBucket: "habits-2adc2.firebasestorage.app",
-  messagingSenderId: "1020463913676",
-  appId: "1:1020463913676:web:ca77ce7c90b11bb16fc069"
+  apiKey: "AIzaSyCkJCb5jQSHI3uy0z034Hkihf_03E1c0nU",
+  authDomain: "habits-845c1.firebaseapp.com",
+  projectId: "habits-845c1",
+  storageBucket: "habits-845c1.firebasestorage.app",
+  messagingSenderId: "551765040095",
+  appId: "1:551765040095:web:0cfdaf4b7bc0e606b5826a"
 };
 
 const app = initializeApp(firebaseConfig);
