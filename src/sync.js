@@ -11,9 +11,9 @@
 // * Saving sends only those fields (updateDoc), so two devices that change different habits, or different days of the same habit, never overwrite each other.
 // * News from the cloud is laid down first and this device's unsent edits are put back on top, so nothing typed offline is lost.
 // * habits + base live in localStorage too, so offline edits survive a reload and go out when the connection is back.
-import {initializeApp} from 'firebase/app';
-import {getAuth,onAuthStateChanged,signInWithEmailAndPassword,createUserWithEmailAndPassword,signOut,sendPasswordResetEmail} from 'firebase/auth';
-import {getFirestore,doc,collection,setDoc,updateDoc,deleteDoc,deleteField,FieldPath,onSnapshot,getDocFromServer,writeBatch,runTransaction} from 'firebase/firestore';
+import {initializeApp} from 'https://www.gstatic.com/firebasejs/10.14.0/firebase-app.js';
+import {getAuth,onAuthStateChanged,signInWithEmailAndPassword,createUserWithEmailAndPassword,signOut,sendPasswordResetEmail} from 'https://www.gstatic.com/firebasejs/10.14.0/firebase-auth.js';
+import {getFirestore,doc,collection,setDoc,updateDoc,deleteDoc,deleteField,FieldPath,onSnapshot,getDocFromServer,writeBatch,runTransaction} from 'https://www.gstatic.com/firebasejs/10.14.0/firebase-firestore.js';
 import {firebaseConfig} from './firebase-config.js';
 import {S,resetState} from './state.js';
 import {loadCats} from './categories.js';
