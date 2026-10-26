@@ -1,7 +1,7 @@
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.14.0/firebase-app.js";
 import { getFirestore } from "https://www.gstatic.com/firebasejs/10.14.0/firebase-firestore.js";
 
-const firebaseConfig = {
+export const firebaseConfig = {
   apiKey: "AIzaSyBj0uvFXWrOQxPskGUrCe7CjH7EZyVBZwo",
   authDomain: "habits-2adc2.firebaseapp.com",
   projectId: "habits-2adc2",
