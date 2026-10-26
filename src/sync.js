@@ -14,7 +14,7 @@
 import {initializeApp} from 'https://www.gstatic.com/firebasejs/10.14.0/firebase-app.js';
 import {getAuth,onAuthStateChanged,signInWithEmailAndPassword,createUserWithEmailAndPassword,signOut,sendPasswordResetEmail} from 'https://www.gstatic.com/firebasejs/10.14.0/firebase-auth.js';
 import {getFirestore,doc,collection,setDoc,updateDoc,deleteDoc,deleteField,FieldPath,onSnapshot,getDocFromServer,writeBatch,runTransaction} from 'https://www.gstatic.com/firebasejs/10.14.0/firebase-firestore.js';
-import {firebaseConfig} from './firebase-config.js';
+import {firebaseConfig} from 'src/firebase-config.js';
 import {S,resetState} from './state.js';
 import {loadCats} from './categories.js';
 import {HABIT_MAPS as HM,CATS_MAPS as CM,clone,same,toHabit,sortHabits,diff,apply,rebase,catsToDoc,docToCats,normCats,planMigration} from './docs.js';
