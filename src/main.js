@@ -25,5 +25,5 @@ watchAuth({
 });
 
 // Installable / offline: only in the built site (not in `npm run dev`), only on https or localhost
-if(import.meta.env.PROD&&'serviceWorker'in navigator&&(location.protocol==='https:'||location.hostname==='localhost'))
-  addEventListener('load',()=>navigator.serviceWorker.register(import.meta.env.BASE_URL+'sw.js').catch(()=>{}));
+if('serviceWorker'in navigator&&(location.protocol==='https:'||location.hostname==='localhost'))  
+addEventListener('load',()=>navigator.serviceWorker.register('./sw.js').catch(()=>{}));
